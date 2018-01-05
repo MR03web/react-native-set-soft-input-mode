@@ -4,6 +4,7 @@ setSoftInputMode on Android.
 ## Installation
 
 ### Download:
+Run `npm i react-native-set-soft-input-mode --save`
 
 ### Plugin Installation:
 
@@ -40,7 +41,7 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
               new MainReactPackage(),
-              new SoftInputModePackage()  //here
+              new SoftInputModePackage()  // here
             );
         }
     };
@@ -53,12 +54,10 @@ public class MainApplication extends Application implements ReactApplication {
 
 Import `react-native-set-soft-input-mode` in your JS file.
 
-``
-
 Use like so:
 
 ```javascript
-import SoftInputMode from 'react-native-set-soft-input-mode'
+import SoftInputMode from 'react-native-set-soft-input-mode';
 
 export default class Page extends Component {
 
@@ -69,7 +68,7 @@ export default class Page extends Component {
 }
 ```
 
-## OPTIONS:
+## Options:
 
 Name                | Description
 --------            | -----------
