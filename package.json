@@ -1,7 +1,7 @@
 {
   "name": "react-native-set-soft-input-mode",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "setSoftInputMode on Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/MR03web/react-native-set-soft-input-mode.git"
   },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-set-soft-input-mode",
+    "setSoftInputMode",
+    "SoftInputMode",
+    "android"
+  ],
   "author": "MR03web",
   "license": "MIT",
   "bugs": {
