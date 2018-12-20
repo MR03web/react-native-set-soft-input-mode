@@ -1,5 +1,6 @@
 package io.github.mr03web.softinputmodemodule;
 
+import android.app.Activity;
 import android.os.Handler;
 import android.os.Message;
 import android.view.WindowManager;
@@ -38,7 +39,10 @@ public class SoftInputModeModule extends ReactContextBaseJavaModule {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            getCurrentActivity().getWindow().setSoftInputMode(msg.what);
+            
+            Activity activity = getCurrentActivity();
+            if (activity != null) // check activity
+                activity.getWindow().setSoftInputMode(msg.what);
         }
     };
 
