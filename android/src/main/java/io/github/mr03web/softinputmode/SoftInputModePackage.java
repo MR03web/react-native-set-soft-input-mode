@@ -1,4 +1,4 @@
-package io.github.mr03web.softinputmodemodule;
+package io.github.mr03web.softinputmode;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

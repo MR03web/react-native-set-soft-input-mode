@@ -1,4 +1,4 @@
-package io.github.mr03web.softinputmodemodule;
+package io.github.mr03web.softinputmode;
 
 import android.app.Activity;
 import android.os.Handler;
