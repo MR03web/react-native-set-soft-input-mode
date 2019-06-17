@@ -1,6 +1,6 @@
 {
   "name": "react-native-set-soft-input-mode",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "setSoftInputMode on Android",
   "main": "index.js",
   "scripts": {
