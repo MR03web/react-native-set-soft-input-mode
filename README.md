@@ -25,7 +25,7 @@ step-2. In your android/app/build.gradle file, add the `:react-native-set-soft-i
 ...
 dependencies {
     ...
-    compile project(':react-native-set-soft-input-mode')
+    implementation project(':react-native-set-soft-input-mode')
 }
 ```
 
@@ -66,7 +66,7 @@ import SoftInputMode from "react-native-set-soft-input-mode";
 
 export default class Page extends Component {
   componentDidMount() {
-    SoftInputMode.set(SoftInputMode.ADJUST_RESIZE);
+    SoftInputMode.set(SoftInputMode.ADJUST_NOTHING);
   }
 }
 ```
