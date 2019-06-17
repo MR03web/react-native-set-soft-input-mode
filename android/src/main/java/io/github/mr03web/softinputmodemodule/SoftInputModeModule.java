@@ -38,7 +38,12 @@ public class SoftInputModeModule extends ReactContextBaseJavaModule {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            getCurrentActivity().getWindow().setSoftInputMode(msg.what);
+            try {
+                getCurrentActivity().getWindow().setSoftInputMode(msg.what);
+            }
+            catch(Exception e) {
+
+            }
         }
     };
 
